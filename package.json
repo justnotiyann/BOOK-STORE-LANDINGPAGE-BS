@@ -1,0 +1,24 @@
+{
+  "name": "book-store-landingpage-bs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o public/stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnotiyann/BOOK-STORE-LANDINGPAGE-BS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justnotiyann/BOOK-STORE-LANDINGPAGE-BS/issues"
+  },
+  "homepage": "https://github.com/justnotiyann/BOOK-STORE-LANDINGPAGE-BS#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

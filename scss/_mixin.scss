@@ -1,0 +1,15 @@
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin animation {
+  transition: all 0.23s ease-in-out;
+}
+
+@mixin animate-button {
+  color: white;
+  background-color: rgb(44, 40, 40);
+  border: 1px solid rgb(44, 40, 40);
+}

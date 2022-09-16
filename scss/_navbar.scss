@@ -1,0 +1,35 @@
+@import "./mixin";
+
+nav {
+  padding: 1rem 2em;
+  @include flex;
+  ul.navigation_1 {
+    list-style-type: none;
+    @include flex;
+    li {
+      margin-right: 1rem;
+      i {
+        font-size: 1.5rem;
+      }
+      a {
+        @include animation;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  ul.navigation_2 {
+    list-style-type: none;
+    a {
+      padding: 0.3rem 2rem;
+      color: white;
+      background-color: $primary-color;
+      border-radius: 5px;
+      @include animation;
+      &:hover {
+        @include animate-button;
+      }
+    }
+  }
+}
