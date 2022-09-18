@@ -1,0 +1,75 @@
+@import "./mixin";
+@import "./variabels";
+
+#container_1 {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+  .cta {
+    h2 {
+      @include animation;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    &__button {
+      background-color: $secondary-color;
+      color: white;
+      padding: 0.6rem 2rem;
+      border-radius: 8px;
+      @include animation;
+      &:hover {
+        @include animate-button;
+      }
+    }
+  }
+}
+
+#container_2 {
+  padding: 5rem;
+  background-color: rgba(191, 191, 191, 0.279);
+  .kartu {
+    border-radius: 8px;
+    margin-right: 1.5rem;
+    @include animation;
+    padding: 2em;
+    background-color: white;
+    &:hover {
+      cursor: pointer;
+      border: 1px solid black;
+      box-shadow: 10px 10px rgba(0, 0, 0, 0.292);
+    }
+    &__image {
+      color: black;
+      text-align: center;
+      font-size: 5em;
+      padding: 1rem 2rem;
+      background-color: rgba(191, 191, 191, 0.279);
+      margin-bottom: 1rem;
+    }
+    &__title {
+      font-weight: 600;
+      text-align: center;
+    }
+    &__body {
+      @include flex;
+      p {
+        &:nth-child(1) {
+          margin-right: 1rem;
+        }
+        &:nth-child(2) {
+          margin-right: 1rem;
+        }
+        &:nth-child(3) {
+          background-color: $secondary-color;
+          color: white;
+          padding: 0.5rem 1rem;
+          border-radius: 8px;
+          @include animation;
+          &:hover {
+            background-color: darken($secondary-color, 20);
+          }
+        }
+      }
+    }
+  }
+}
