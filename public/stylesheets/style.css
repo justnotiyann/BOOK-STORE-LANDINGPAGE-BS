@@ -50,7 +50,7 @@ nav {
   #container_1 .cta__button {
     background-color: goldenrod;
     color: white;
-    padding: 0.6rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
     transition: all 0.23s ease-in-out; }
     #container_1 .cta__button:hover {
@@ -97,6 +97,33 @@ nav {
         transition: all 0.23s ease-in-out; }
         #container_2 .kartu__body p:nth-child(3):hover {
           background-color: #816213; }
+
+#container_3 {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  margin-bottom: 2rem; }
+  #container_3 a {
+    background-color: goldenrod;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.23s ease-in-out;
+    font-weight: 700; }
+    #container_3 a:hover {
+      background-color: #816213; }
+
+#container_4 {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: rgba(217, 217, 217, 0.279); }
+  #container_4 .button {
+    margin-top: 1rem;
+    background-color: goldenrod;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.23s ease-in-out;
+    border: none; }
 
 body {
   font-family: "Poppins", sans-serif; }
