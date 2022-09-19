@@ -90,3 +90,41 @@
     border: none;
   }
 }
+
+#container_5 {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  .card-login {
+    width: 10em;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    background-color: rgb(160, 160, 160);
+    @include animation;
+    &:hover {
+      color: white;
+      background-color: darken(rgba(155, 72, 72, 0.741), 20);
+    }
+  }
+  form {
+    input[type="text"] {
+      border: 1px solid black;
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+    input[type="password"] {
+      @extend input[type="text"];
+    }
+    #login {
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      background-color: $primary-color;
+      color: white;
+      &:hover {
+        background-color: darken($primary-color, 20);
+      }
+    }
+    #daftar {
+      @extend #login;
+    }
+  }
+}

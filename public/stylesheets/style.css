@@ -125,5 +125,29 @@ nav {
     transition: all 0.23s ease-in-out;
     border: none; }
 
+#container_5 {
+  padding-top: 10em;
+  padding-bottom: 10em; }
+  #container_5 .card-login {
+    width: 10em;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    background-color: #a0a0a0;
+    transition: all 0.23s ease-in-out; }
+    #container_5 .card-login:hover {
+      color: white;
+      background-color: rgba(85, 40, 40, 0.741); }
+  #container_5 form input[type="text"], #container_5 form input[type="password"] {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 8px; }
+  #container_5 form #login, #container_5 form #daftar {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #9d7e31;
+    color: white; }
+    #container_5 form #login:hover, #container_5 form #daftar:hover {
+      background-color: #4f4019; }
+
 body {
   font-family: "Poppins", sans-serif; }
